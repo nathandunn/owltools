@@ -1,4 +1,4 @@
-java -Xms1024M -DentityExpansionLimit=4086000 -Djava.awt.headless=true -Xmx8G -jar ./OWLTools-Runner/bin/owltools  \
+java -Xms1024M -DentityExpansionLimit=4086000 -Djava.awt.headless=true -Xmx10G -jar ./OWLTools-Runner/bin/owltools  \
 http://purl.obolibrary.org/obo/go/extensions/go-plus.owl  \
 http://purl.obolibrary.org/obo/eco.owl  \
 http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl  \
