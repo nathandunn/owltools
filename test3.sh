@@ -4,4 +4,4 @@ http://purl.obolibrary.org/obo/go/subsets/goslim_generic.obo \
 --solr-config ont-config.yaml \
 --merge-support-ontologies --merge-imports-closure --remove-subset-entities upperlevel --remove-disjoints --silence-elk --reasoner elk --solr-taxon-subset-name amigo_grouping_subset --solr-eco-subset-name go_groupings \
 --solr-url http://localhost:8983/solr/ --solr-log /tmp/golr_timestamp.log  --solr-load-ontology --solr-load-ontology-general  \
---solr-load-gafs https://github.com/biolink/ontobio/blob/master/tests/resources/truncated-pombase.gaf --solr-load-panther-general --solr-optimize 
+--solr-load-gafs https://raw.githubusercontent.com/biolink/ontobio/master/tests/resources/truncated-pombase.gaf --solr-load-panther-general --solr-optimize 
